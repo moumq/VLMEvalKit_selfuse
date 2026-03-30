@@ -1,0 +1,937 @@
+{
+  "IMAGE_DATASET": {
+    "ImageCaptionDataset": [
+      "COCO_VAL"
+    ],
+    "ImageYORNDataset": [
+      "MME",
+      "HallusionBench",
+      "POPE",
+      "AMBER",
+      "VSR-zeroshot"
+    ],
+    "ImageMCQDataset": [
+      "MMBench_DEV_EN",
+      "MMBench_TEST_EN",
+      "MMBench_DEV_CN",
+      "MMBench_TEST_CN",
+      "MMBench_DEV_KO",
+      "MMBench",
+      "MMBench_CN",
+      "MMBench_DEV_EN_V11",
+      "MMBench_TEST_EN_V11",
+      "MMBench_DEV_CN_V11",
+      "MMBench_TEST_CN_V11",
+      "MMBench_V11",
+      "MMBench_CN_V11",
+      "SEEDBench_IMG",
+      "SEEDBench_IMG_KO",
+      "SEEDBench2",
+      "SEEDBench2_Plus",
+      "ScienceQA_VAL",
+      "ScienceQA_TEST",
+      "MMT-Bench_ALL_MI",
+      "MMT-Bench_ALL",
+      "MMT-Bench_VAL_MI",
+      "MMT-Bench_VAL",
+      "AesBench_VAL",
+      "AesBench_TEST",
+      "Q-Bench1_VAL",
+      "Q-Bench1_TEST",
+      "A-Bench_VAL",
+      "A-Bench_TEST",
+      "R-Bench-Dis",
+      "R-Bench-Ref",
+      "CCBench",
+      "AI2D_TEST",
+      "AI2D_TEST_NO_MASK",
+      "MMStar",
+      "MMStar_KO",
+      "MMStar_TR",
+      "RealWorldQA",
+      "MLLMGuard_DS",
+      "BLINK",
+      "BLINK_circular",
+      "TaskMeAnything_v1_imageqa_random",
+      "A-OKVQA",
+      "WorldMedQA-V",
+      "VisOnlyQA-VLMEvalKit",
+      "MMCR",
+      "MMSci_DEV_MCQ",
+      "MMVP",
+      "K-DTCBench",
+      "MMBench_V11_MINI",
+      "MMStar_MINI",
+      "AI2D_MINI",
+      "VStarBench",
+      "PathMMU_VAL",
+      "PathMMU_TEST",
+      "CMMU_MCQ",
+      "MicroVQA",
+      "MMSIBench_circular",
+      "SpatialEval",
+      "StaticEmbodiedBench",
+      "StaticEmbodiedBench_circular"
+    ],
+    "ImageVQADataset": [
+      "OCRVQA_TEST",
+      "OCRVQA_TESTCORE",
+      "TextVQA_VAL",
+      "DocVQA_VAL",
+      "DocVQA_TEST",
+      "InfoVQA_VAL",
+      "InfoVQA_TEST",
+      "ChartQA_TEST",
+      "GQA_TestDev_Balanced"
+    ],
+    "MathVision": [
+      "MathVision",
+      "MathVision_MINI"
+    ],
+    "LENS": [
+      "LENS-CN-QA",
+      "LENS-CN-QA_MINI"
+    ],
+    "MMMUDataset": [
+      "MMMU_DEV_VAL",
+      "MMMU_TEST"
+    ],
+    "OCRBench": [
+      "OCRBench",
+      "OCRBench_MINI"
+    ],
+    "MathVista": [
+      "MathVista_MINI"
+    ],
+    "LLaVABench": [
+      "LLaVABench"
+    ],
+    "LLaVABench_KO": [
+      "LLaVABench_KO"
+    ],
+    "VGRPBench": [
+      "VGRPBench"
+    ],
+    "MMVet": [
+      "MMVet",
+      "MMVet_Hard"
+    ],
+    "MTVQADataset": [
+      "MTVQA_TEST"
+    ],
+    "TableVQABench": [
+      "TableVQABench"
+    ],
+    "MMLongBench": [
+      "MMLongBench_DOC"
+    ],
+    "VCRDataset": [
+      "VCR_EN_EASY_500",
+      "VCR_EN_EASY_100",
+      "VCR_EN_EASY_ALL",
+      "VCR_EN_HARD_500",
+      "VCR_EN_HARD_100",
+      "VCR_EN_HARD_ALL",
+      "VCR_ZH_EASY_500",
+      "VCR_ZH_EASY_100",
+      "VCR_ZH_EASY_ALL",
+      "VCR_ZH_HARD_500",
+      "VCR_ZH_HARD_100",
+      "VCR_ZH_HARD_ALL"
+    ],
+    "MMDUDataset": [
+      "MMDU"
+    ],
+    "DUDE": [
+      "DUDE",
+      "DUDE_MINI"
+    ],
+    "SlideVQA": [
+      "SLIDEVQA_MINI",
+      "SLIDEVQA"
+    ],
+    "MUIRDataset": [
+      "MUIRBench"
+    ],
+    "CCOCRDataset": [
+      "<dynamic-or-unresolved>"
+    ],
+    "GMAIMMBenchDataset": [
+      "GMAI-MMBench_VAL",
+      "GMAI-MMBench_TEST"
+    ],
+    "MMERealWorld": [
+      "MME-RealWorld",
+      "MME-RealWorld-CN",
+      "MME-RealWorld-Lite"
+    ],
+    "HRBenchDataset": [
+      "HRBench4K",
+      "HRBench8K"
+    ],
+    "CRPE": [
+      "CRPE_EXIST",
+      "CRPE_RELATION"
+    ],
+    "MathVerse": [
+      "MathVerse_MINI",
+      "MathVerse_MINI_Vision_Only",
+      "MathVerse_MINI_Vision_Only_cot",
+      "MathVerse_MINI_Vision_Dominant",
+      "MathVerse_MINI_Vision_Intensive",
+      "MathVerse_MINI_Text_Lite",
+      "MathVerse_MINI_Text_Dominant"
+    ],
+    "NaturalBenchDataset": [
+      "NaturalBenchDataset"
+    ],
+    "MIABench": [
+      "MIA-Bench"
+    ],
+    "OlympiadBench": [
+      "OlympiadBench",
+      "OlympiadBench_EN",
+      "OlympiadBench_CN"
+    ],
+    "SeePhys": [
+      "SeePhys",
+      "SeePhys_vo"
+    ],
+    "WildVision": [
+      "WildVision"
+    ],
+    "MMMath": [
+      "MM-Math"
+    ],
+    "QSpatial": [
+      "QSpatial_plus",
+      "QSpatial_scannet"
+    ],
+    "Dynamath": [
+      "DynaMath",
+      "DynaMath_noprompt"
+    ],
+    "GSM8KVDataset": [
+      "GSM8K-V"
+    ],
+    "MMGenBench": [
+      "MMGenBench-Test",
+      "MMGenBench-Domain"
+    ],
+    "VizWiz": [
+      "VizWiz"
+    ],
+    "MMNIAH": [
+      "MM_NIAH_VAL",
+      "MM_NIAH_TEST"
+    ],
+    "CMMMU": [
+      "CMMMU_VAL"
+    ],
+    "VLRewardBench": [
+      "VL-RewardBench"
+    ],
+    "WeMath": [
+      "WeMath",
+      "WeMath_COT"
+    ],
+    "LogicVista": [
+      "LogicVista"
+    ],
+    "MMMUProDataset": [
+      "MMMU_Pro_10c",
+      "MMMU_Pro_10c_COT",
+      "MMMU_Pro_V",
+      "MMMU_Pro_V_COT"
+    ],
+    "CreationMMBenchDataset": [
+      "LiveMMBench_Creation",
+      "Creation_MMBench"
+    ],
+    "ImageShortQADataset": [
+      "LiveMMBench_Infographic",
+      "LiveMMBench_Perception",
+      "LiveMMBench_Reasoning",
+      "LiveMMBench_Reasoning_circular",
+      "LiveMMBench_Spatial",
+      "hle"
+    ],
+    "MMAlignBench": [
+      "MMAlignBench"
+    ],
+    "OmniDocBench": [
+      "OmniDocBench"
+    ],
+    "VLM2Bench": [
+      "VLM2Bench"
+    ],
+    "VMCBenchDataset": [
+      "VMCBench_DEV",
+      "VMCBench_TEST"
+    ],
+    "EMMADataset": [
+      "EMMA",
+      "EMMA_COT"
+    ],
+    "MME_CoT": [
+      "MME_CoT_TEST"
+    ],
+    "MOAT": [
+      "MOAT"
+    ],
+    "MedXpertQA_MM_test": [
+      "MedXpertQA_MM_test"
+    ],
+    "LEGO": [
+      "LEGO",
+      "LEGO_circular"
+    ],
+    "MMSci_Captioning": [
+      "MMSci_DEV_Captioning_image_only",
+      "MMSci_DEV_Captioning_with_abs"
+    ],
+    "Physics_yale": [
+      "atomic_dataset",
+      "electro_dataset",
+      "mechanics_dataset",
+      "optics_dataset",
+      "quantum_dataset",
+      "statistics_dataset",
+      "Physics_blankim",
+      "Physics"
+    ],
+    "ScreenSpot_Pro": [
+      "ScreenSpot_Pro_Development",
+      "ScreenSpot_Pro_Creative",
+      "ScreenSpot_Pro_CAD",
+      "ScreenSpot_Pro_Scientific",
+      "ScreenSpot_Pro_Office",
+      "ScreenSpot_Pro_OS"
+    ],
+    "ScreenSpot": [
+      "ScreenSpot_Mobile",
+      "ScreenSpot_Desktop",
+      "ScreenSpot_Web",
+      "ScreenSpot_v2_Mobile",
+      "ScreenSpot_v2_Desktop",
+      "ScreenSpot_v2_Web"
+    ],
+    "VenusBench_GD": [
+      "VenusBench-GD"
+    ],
+    "ScreenSpotV2": [
+      "ScreenSpot_v2_Mobile",
+      "ScreenSpot_v2_Desktop",
+      "ScreenSpot_v2_Web"
+    ],
+    "OSWorld_G": [
+      "OSWorld_G"
+    ],
+    "VBGD": [
+      "VBGD"
+    ],
+    "MMIFEval": [
+      "MM-IFEval"
+    ],
+    "Spatial457": [
+      "Spatial457"
+    ],
+    "VisuLogic": [
+      "VisuLogic"
+    ],
+    "CVBench": [
+      "CV-Bench-2D",
+      "CV-Bench-3D"
+    ],
+    "PathVQA_VAL": [
+      "PathVQA_VAL"
+    ],
+    "PathVQA_TEST": [
+      "PathVQA_TEST"
+    ],
+    "TDBench": [
+      "tdbench_rot0",
+      "tdbench_rot90",
+      "tdbench_rot180",
+      "tdbench_rot270",
+      "tdbench_cs_zoom",
+      "tdbench_cs_height",
+      "tdbench_cs_integrity",
+      "tdbench_cs_depth"
+    ],
+    "TDBenchGrounding": [
+      "tdbench_grounding_rot0",
+      "tdbench_grounding_rot90",
+      "tdbench_grounding_rot180",
+      "tdbench_grounding_rot270"
+    ],
+    "MicroBench": [
+      "MicroBench"
+    ],
+    "CharXiv": [
+      "CharXiv_descriptive_val",
+      "CharXiv_reasoning_val"
+    ],
+    "OmniMedVQA": [
+      "OmniMedVQA"
+    ],
+    "WildDocBenchmark": [
+      "WildDoc"
+    ],
+    "MSEarthMCQ": [
+      "MSEarthMCQ"
+    ],
+    "OCR_Reasoning": [
+      "OCR_Reasoning"
+    ],
+    "PhyX": [
+      "PhyX_MC",
+      "PhyX_OE",
+      "PhyX_mini_MC",
+      "PhyX_mini_OE"
+    ],
+    "VLMBlind": [
+      "VLMBlind"
+    ],
+    "CountBenchQA": [
+      "CountBenchQA"
+    ],
+    "ZEROBench": [
+      "ZEROBench",
+      "ZEROBench_sub"
+    ],
+    "SCAM": [
+      "SCAM"
+    ],
+    "Omni3DBench": [
+      "Omni3DBench"
+    ],
+    "TallyQA": [
+      "TallyQA"
+    ],
+    "_3DSRBench": [
+      "3DSRBench"
+    ],
+    "BMMR": [
+      "BMMR",
+      "BMMR_mini"
+    ],
+    "AffordanceDataset": [
+      "A4Bench"
+    ],
+    "MMEReasoning": [
+      "MME-Reasoning"
+    ],
+    "GOBenchDataset": [
+      "GOBench"
+    ],
+    "SFE": [
+      "SFE",
+      "SFE-zh"
+    ],
+    "ChartMimic": [
+      "ChartMimic_v1_customized",
+      "ChartMimic_v1_direct",
+      "ChartMimic_v2_customized",
+      "ChartMimic_v2_customized_600",
+      "ChartMimic_v2_customized_1800",
+      "ChartMimic_v2_direct",
+      "ChartMimic_v2_direct_600",
+      "ChartMimic_v2_direct_1800"
+    ],
+    "MMVMBench": [
+      "MMVMBench"
+    ],
+    "XLRSBench": [
+      "XLRS-Bench-lite"
+    ],
+    "OmniEarthMCQBench": [
+      "OmniEarth-Bench"
+    ],
+    "VisFactor": [
+      "VisFactor",
+      "VisFactor_CoT",
+      "VisFactor_GE",
+      "VisFactor_GE_CoT",
+      "VisFactor_GN",
+      "VisFactor_GN_CoT",
+      "VisFactor_GH",
+      "VisFactor_GH_CoT"
+    ],
+    "OSTDataset": [
+      "<dynamic-or-unresolved>"
+    ],
+    "OCRBench_v2": [
+      "OCRBench_v2",
+      "OCRBench_v2_MINI"
+    ],
+    "TreeBench": [
+      "TreeBench"
+    ],
+    "CVQA": [
+      "CVQA_EN",
+      "CVQA_LOC"
+    ],
+    "M4Bench": [
+      "State_Invariance",
+      "State_Comparison",
+      "Spatial_Perception",
+      "Instance_Comparison",
+      "Detailed_Difference"
+    ],
+    "AyaVisionBench": [
+      "AyaVisionBench"
+    ],
+    "TopViewRS": [
+      "TopViewRS"
+    ],
+    "VLMBias": [
+      "VLMBias"
+    ],
+    "MMHELIX": [
+      "MM-HELIX",
+      "MM-HELIX_lang"
+    ],
+    "MedqbenchMCQDataset": [
+      "MedqbenchMCQ",
+      "MedqbenchMCQ_dev",
+      "MedqbenchMCQ_test"
+    ],
+    "MathCanvas": [
+      "MathCanvas-Bench"
+    ],
+    "MMReason": [
+      "MMReason_testmini"
+    ],
+    "MedqbenchPairedDescriptionDataset": [
+      "MedqbenchPairedDescription_dev",
+      "MedqbenchPairedDescription_test"
+    ],
+    "MedqbenchCaptionDataset": [
+      "MedqbenchCaption",
+      "MedqbenchCaption_dev",
+      "MedqbenchCaption_test"
+    ],
+    "ChartMuseum": [
+      "ChartMuseum_dev",
+      "ChartMuseum_test"
+    ],
+    "ChartQAPro": [
+      "ChartQAPro",
+      "ChartQAPro_CoT",
+      "ChartQAPro_PoT"
+    ],
+    "ReasonMap_Plus": [
+      "ReasonMap-Plus"
+    ],
+    "olmOCRBench": [
+      "olmOCRBench"
+    ],
+    "OceanOCRBench": [
+      "OceanOCRBench"
+    ],
+    "MATBench": [
+      "MATBench"
+    ],
+    "VLRMBench": [
+      "VLRMBench",
+      "VLRMBench_MultiSolution",
+      "VLRMBench_Foresight"
+    ],
+    "RefCOCODataset": [
+      "RefCOCO"
+    ],
+    "RefSpatialDataset": [
+      "<dynamic-or-unresolved>"
+    ],
+    "ERQADataset": [
+      "ERQA"
+    ],
+    "SimpleVQA": [
+      "SimpleVQA"
+    ],
+    "HiPhODataset": [
+      "IPhO_2024",
+      "IPhO_2025",
+      "EuPhO_2024",
+      "EuPhO_2025",
+      "APhO_2025",
+      "PanPhO_2024",
+      "PanPhO_2025",
+      "NBPhO_2024",
+      "NBPhO_2025",
+      "F_MA_2024",
+      "F_MA_2025",
+      "PanMechanics_2024",
+      "PanMechanics_2025",
+      "HiPhO_ALL"
+    ],
+    "MaCBench": [
+      "MaCBench"
+    ],
+    "KwaiMCQDataset": [
+      "Ecommerce_review",
+      "Ecosystem_review",
+      "Content_classification",
+      "Content_classification_V2",
+      "Comment_classification",
+      "Ecommerce_classification",
+      "watch_query",
+      "controversiality",
+      "multi_video_interests_deduplication"
+    ],
+    "KwaiYORNDataset": [
+      "PornComment",
+      "wenjuan",
+      "high_like",
+      "spu"
+    ],
+    "KwaiVQADataset": [
+      "Fine_grained_IP_recognition",
+      "video_interests",
+      "Kwai_AI",
+      "Comment_Gen",
+      "Video_Order",
+      "Video_Topic",
+      "e_commerce_tag",
+      "e_commerce_interest",
+      "god_review",
+      "porn_review",
+      "art_review",
+      "inference_vv",
+      "cpv"
+    ],
+    "InternalImageVQA": [
+      "InternalImageVQA",
+      "InternalImageVQA_Subset",
+      "Internal_OCR"
+    ],
+    "InternalOCR": [
+      "InternalOCR"
+    ],
+    "UniSVG": [
+      "UniSVG"
+    ],
+    "SArena": [
+      "SArena",
+      "SArena_MINI"
+    ],
+    "VLMsAreBiased": [
+      "vlms_are_biased_main"
+    ],
+    "MMESCIDataset": [
+      "MMESCI_VisionOnly",
+      "MMESCI_ZH",
+      "MMESCI_EN",
+      "MMESCI_FR",
+      "MMESCI_ES",
+      "MMESCI_JA"
+    ],
+    "CoreCognition": [
+      "CoreCognition"
+    ],
+    "GroundingME": [
+      "GroundingME"
+    ],
+    "FoxBench": [
+      "FoxBench"
+    ],
+    "VTCBench": [
+      "Retrieval",
+      "Reasoning",
+      "Memory"
+    ],
+    "Asclepius": [
+      "Asclepius"
+    ],
+    "PlotQA": [
+      "PlotQA"
+    ],
+    "ChartX": [
+      "ChartX"
+    ],
+    "ChartBench": [
+      "ChartBench"
+    ],
+    "ChartCapDataset": [
+      "ChartCap"
+    ],
+    "WorldVQA": [
+      "WorldVQA"
+    ],
+    "PuzzleVQA": [
+      "PuzzleVQA"
+    ],
+    "VisualPuzzles": [
+      "VisualPuzzles"
+    ],
+    "MMSafetyBenchDataset": [
+      "MMSafetyBench"
+    ],
+    "MSSBenchDataset": [
+      "MSSBench"
+    ],
+    "SIUODataset": [
+      "SIUO"
+    ],
+    "SIUOGenDataset": [
+      "SIUO_GEN"
+    ],
+    "SIUOMCQDataset": [
+      "SIUO_MCQ"
+    ],
+    "M3oralBenchDataset": [
+      "M3oralBench"
+    ],
+    "Design2Code": [
+      "Design2Code"
+    ],
+    "VLADBench": [
+      "VLADBench"
+    ],
+    "SSIBenchDataset": [
+      "SSI_Bench"
+    ],
+    "NPMM": [
+      "npmm"
+    ],
+    "SGI_Bench_Experimental_Reasoning": [
+      "SGI-Experimental-Reasoning"
+    ],
+    "MindCubeBench": [
+      "MindCubeBench_tiny_raw_qa",
+      "MindCubeBench_raw_qa"
+    ],
+    "EmbSpatialBench": [
+      "EmbSpatialBench"
+    ],
+    "ViewSpatialBench": [
+      "ViewSpatialBench"
+    ],
+    "MMSIBench": [
+      "MMSIBench_wo_circular"
+    ],
+    "SiteBenchImage": [
+      "SiteBenchImage"
+    ],
+    "SparBench": [
+      "SparBench",
+      "SparBench_tiny"
+    ],
+    "SpatialVizBench": [],
+    "StareBench": [],
+    "OmniSpatialBench": [],
+    "ERQABench": [
+      "ERQA"
+    ],
+    "RoboSpatialBench": [
+      "RoboSpatialHome"
+    ],
+    "RefSpatialBench": [
+      "RefSpatial",
+      "RefSpatial_wo_unseen"
+    ],
+    "SPBench": [
+      "SPBench-MV",
+      "SPBench-MV_CoT",
+      "SPBench-SI",
+      "SPBench-SI_CoT"
+    ],
+    "ERIQBench": [
+      "ERIQ"
+    ],
+    "DA2K": [
+      "DA-2K"
+    ]
+  },
+  "VIDEO_DATASET": {
+    "MMBenchVideo": [
+      "MMBench-Video"
+    ],
+    "VideoMME": [
+      "Video-MME"
+    ],
+    "MVBench": [
+      "MVBench"
+    ],
+    "MVBench_MP4": [
+      "MVBench_MP4"
+    ],
+    "MVTamperBench": [
+      "MVTamperBench",
+      "MVTamperBenchStart",
+      "MVTamperBenchEnd"
+    ],
+    "LongVideoBench": [
+      "LongVideoBench"
+    ],
+    "WorldSense": [
+      "WorldSense"
+    ],
+    "VDC": [
+      "VDC"
+    ],
+    "MovieChat1k": [
+      "MovieChat1k"
+    ],
+    "MEGABench": [
+      "MEGABench"
+    ],
+    "MLVU": [
+      "MLVU"
+    ],
+    "MLVU_MCQ": [
+      "MLVU_MCQ"
+    ],
+    "MLVU_OpenEnded": [
+      "MLVU_OpenEnded"
+    ],
+    "TempCompass": [
+      "TempCompass"
+    ],
+    "TempCompass_MCQ": [
+      "TempCompass_MCQ"
+    ],
+    "TempCompass_Captioning": [
+      "TempCompass_Captioning"
+    ],
+    "TempCompass_YorN": [
+      "TempCompass_YorN"
+    ],
+    "CGBench_MCQ_Grounding_Mini": [
+      "CG-Bench_MCQ_Grounding_Mini"
+    ],
+    "CGBench_OpenEnded_Mini": [
+      "CG-Bench_OpenEnded_Mini"
+    ],
+    "CGBench_MCQ_Grounding": [
+      "CG-Bench_MCQ_Grounding"
+    ],
+    "CGBench_OpenEnded": [
+      "CG-Bench_OpenEnded"
+    ],
+    "QBench_Video": [
+      "QBench_Video"
+    ],
+    "QBench_Video_MCQ": [
+      "QBench_Video_MCQ"
+    ],
+    "QBench_Video_VQA": [
+      "QBench_Video_VQA"
+    ],
+    "Video_MMLU_CAP": [
+      "Video_MMLU_CAP"
+    ],
+    "Video_MMLU_QA": [
+      "Video_MMLU_QA"
+    ],
+    "Video_Holmes": [
+      "Video_Holmes"
+    ],
+    "VCRBench": [
+      "VCR-Bench"
+    ],
+    "CGAVCounting": [
+      "CGAVCounting"
+    ],
+    "EgoExoBench_MCQ": [
+      "EgoExoBench_MCQ"
+    ],
+    "DREAM": [
+      "DREAM-1K"
+    ],
+    "VideoTT": [
+      "Video-TT"
+    ],
+    "VideoMMMU": [
+      "VideoMMMU"
+    ],
+    "MVUEval": [
+      "MVU-Eval"
+    ],
+    "OMTGBench": [
+      "OMTGBench"
+    ],
+    "V2PBench": [
+      "V2P-Bench"
+    ],
+    "AVSpeakerBench": [
+      "AV-SpeakerBench"
+    ],
+    "InternalVideo": [
+      "InternalVideo"
+    ],
+    "SiteBenchVideo": [
+      "SiteBenchVideo"
+    ],
+    "VsiBench": [
+      "VSI-Bench",
+      "VSI-Bench-Debiased"
+    ],
+    "VsiSuperRecall": [
+      "VsiSuperRecall_10mins",
+      "VsiSuperRecall_30mins",
+      "VsiSuperRecall_60mins",
+      "VsiSuperRecall_120mins",
+      "VsiSuperRecall_240mins"
+    ],
+    "VsiSuperCount": [
+      "VsiSuperCount_10mins",
+      "VsiSuperCount_30mins",
+      "VsiSuperCount_60mins",
+      "VsiSuperCount_120mins"
+    ],
+    "MMSIVideoBench": [
+      "MMSIVideoBench"
+    ],
+    "STIBench": [
+      "STI-Bench"
+    ],
+    "DSRBench": [
+      "DSRBench"
+    ]
+  },
+  "TEXT_DATASET": {
+    "TextMCQDataset": [],
+    "SGI_Bench_Wet_Experiment": [
+      "SGI-WetExperiment"
+    ],
+    "SGI_Bench_Dry_Experiment": [
+      "SGI-DryExperiment"
+    ],
+    "SGI_Bench_Deep_Research": [
+      "SGI-DeepResearch"
+    ],
+    "SGI_Bench_Idea_Generation": [
+      "SGI-IdeaGeneration"
+    ],
+    "XSTestDataset": [
+      "XSTest"
+    ],
+    "FlamesDataset": [
+      "Flames"
+    ]
+  },
+  "CUSTOM_DATASET": {
+    "CustomMCQDataset": [
+      "<dynamic-or-unresolved>"
+    ],
+    "CustomVQADataset": [
+      "<dynamic-or-unresolved>"
+    ],
+    "CustomTextMCQDataset": [
+      "<dynamic-or-unresolved>"
+    ]
+  },
+  "DATASET_COLLECTION": {
+    "ConcatDataset": [
+      "MMMB",
+      "MTL_MMBench_DEV",
+      "ScreenSpot_Pro",
+      "ScreenSpot",
+      "ScreenSpot_v2",
+      "M4Bench"
+    ],
+    "ConcatVideoDataset": []
+  }
+}

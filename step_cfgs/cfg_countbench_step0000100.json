@@ -1,0 +1,20 @@
+{
+  "model": {
+    "step0000100": {
+      "class": "KeyeFastAPI",
+      "api_base": "http://127.0.0.1:15553/v1",
+      "max_tokens": 1024,
+      "temperature": 0,
+      "img_detail": "high",
+      "retry": 60,
+      "timeout": 180,
+      "verbose": true
+    }
+  },
+  "data": {
+    "CountBenchQA": {
+      "class": "CountBenchQA",
+      "dataset": "CountBenchQA"
+    }
+  }
+}
